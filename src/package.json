@@ -1,18 +1,19 @@
 {
   "name": "project",
   "dependencies": {
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.4.3",
+    "miragejs": "0.1.46"
   },
   "devDependencies": {
-    "webpack": "^2.0",
-    "babel-core": "^6.0",
-    "babel-loader": "^7.0",
-    "babel-preset-env": "*",
-    "babel-preset-react": "*"
+    "vite": "latest",
+    "@vitejs/plugin-react": "*"
   },
   "scripts": {
-    "build": "webpack",
-    "watch": "webpack -w"
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   }
 }
